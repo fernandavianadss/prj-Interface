@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local | Sempre perto de você</title>
+  <link rel="icon" href="imagens/icone.png">	
+  
+  <!--Css-->
+  <link  href="estilo.css" rel="stylesheet">
+  <link  href="css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  	
+ 
+</head>
+<body id="home" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <nav class="navbar navbar-fixed-top navbar-default" id="navegacao">
+      <div class="container">
+
+      <!--header-->
+      <div class="navbar-header">
+
+      <!--Botão toggle-->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+          <span class="sr-only">Alternar navegacao</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">Local</span>
+            </a>
+      </div>
+      
+      <!--navbar-->
+      <div class="collapse navbar-collapse" id="barra-navegacao">
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Home</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+
+        </ul>
+        </div>
+
+        
+		</div>
+	</nav><!--fim nav-->
+	
+	<div class="row row-header">
+    <div class="col-lg-12">
+        <div class="row">
+                <div class="col-lg-12">
+                    <!--Video Section-->
+                        <video autoplay loop id="video-background" muted>
+                            <source src="imagens/night_traffic_fast_motion.mp4" type="video/mp4">
+                        </video>
+                    <!--Video Section Ends Here-->
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-6">
+                            <img src="imagens/logo3.png" class="img-responsive logo-principal" alt="Logo da empresa Local">
+                </div>
+        </div> 
+    </div>    
+</div>
+
+  			
+	<!-- serviços -->
+	<section id="servicos" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="page-header"><h1> Serviços</h1></div>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+        <div class="col-md-6">
+            <div class="col-sm-8 text-right">
+            <h2>Conforto</h2>
+				<p>Praticidade e segurança para sua família.</p>
+            <h2>Diferencial</h2>
+				<p>Preços diários que cabem no seu orçamento.</p>
+            </div>
+            <div class="col-sm-4">
+                <img src="imagens/carro1.png" class="img-responsive img-rounded"/>
+                <img src="imagens/carro2.png" class="img-responsive img-rounded"/>
+
+                
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-sm-4">
+                <img src="imagens/carro3.png" class="img-responsive img-rounded" />
+                <img src="imagens/carro4.png" class="img-responsive img-rounded" />
+        </div>
+        <div class="col-sm-8">
+            <h2>Variedade</h2>
+				<p>Nossa frota de carros é composta pelos modelos mais recentes.</p>
+            <h2>Agilidade</h2>
+				<p>Alugue sem sair de casa.</p>
+                </div>
+            </div>
+        </div>
+		</div>
+        
+	</section>
+    
+    <!-- // serviços -->
+    
+    
+    <!-- localização -->
+	<section id="localizacao">
+        <div class="container">
+            <div class="row">
+			<div class="col-xs-12">
+				 <div class="page-header"><h1> Localização</h1></div>
+				</div>
+        </div>
+    </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235665.91404458147!2d-43.44577894305506!3d-22.643350198913346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9972edfbe838f5%3A0x672bb060c280a52a!2sDuque+de+Caxias%2C+RJ!5e0!3m2!1spt-BR!2sbr!4v1501005471404" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                </div>
+            </div>    
+    </section>
+	
+    <!-- // localização-->
+    
+    
+    <!--contato-->
+    <section id="contato">
+        <div class="container">
+        <div class="row">    
+        <div class="col-xs-12">
+             <div class="page-header"><h1> Contato</h1></div>
+        </div>
+        </div>
+        
+        <div class="row contato">
+        	<div class="col-xs-12">
+        		<p>Quer saber mais informações nos envie uma mensagem!</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 21 0000-0000</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> contato@local.com.br</p>
+        	</div>
+        </div>
+        <div class="row contato">
+        	<div class="col-xs-12">
+        		<form name="frmcontato" id="formcontato">
+        		<div class="row">
+        		  <div class="col-md-6">
+        			
+        			<div class="form-group">
+					<input type="text" class="form-control input-lg" placeholder="Nome" required/>
+        			</div>
+        			     <div class="form-group">
+        				<input type="email" class="form-control input-lg" placeholder="Email" required />
+        			</div>
+        			<div class="form-group">
+        				<input type="tel" class="form-control input-lg" placeholder="Telefone" />
+        			</div>
+                      
+                    </div>
+        		      <div class="col-md-6">
+        				<textarea class="form-control" placeholder="Sua mensagem! *" required></textarea>
+                    </div>
+                    <div class="col-md-6"><br>
+                          <button type="submit" class="btn btn-primary btn-lg">Enviar formulário</button>
+        			</div>
+        		</div>
+        		  </form>
+            </div>
+        </div>
+    </div>
+</section>
+   <!-- // contato--> 
+
+    <footer id="footer" class="container-fluid text-center">
+        <p>Local - &copy; Todos os direitos reservados 2017</p>
+        <div class="col-sm-12 text-right">
+        			<small>Desenvolvido por:</small><br/> <strong>Fernanda Viana</strong>
+        		</div>
+    </footer>
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

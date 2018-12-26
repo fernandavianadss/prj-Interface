@@ -1,0 +1,136 @@
+
+/*
+*
+* @author Fernanda Viana
+* @version 0.1
+*/
+/*==================== layout ====================*/
+
+
+/* -- barra de navegação -- */
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+header{
+	margin: 0px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+#video-background{
+	position: fixed;
+    right: 0;
+	bottom: 0;
+    
+	width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/logo-sistema.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.logo-principal{
+    margin-top: 43%;
+    
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+#navegacao{
+    background: white;
+}
+
+#navegacao.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+#navegacao.navbar-default .navbar-nav>li>a:hover {
+	color: 	#008B8B;
+}
+
+#navegacao.navbar-default .navbar-nav>.active>a{
+    background: #DCDCDC;
+    
+}
+
+body {
+font: 400 15px Lato, sans-serif;
+line-height: 1.8;
+color: #818181;
+overflow-x: hidden;
+margin: 0;
+padding: 0;
+background: #333;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+section{
+	padding-top: 25px;
+	padding-bottom: 15px;
+	min-height: 90vh;
+}
+
+section#contato{
+	min-height: 80vh;
+}
+
+#contato textarea{
+	height: 100px;
+}
+
+.row-header{
+    height: 100vh;
+    width: 100vw;    
+}
+
+/* -- barra de navegação -- */
+
+#servicos{
+	background: white;
+}
+
+#contato{
+    background: white;
+}
+/*==================== tipografia ====================*/
+
+#localizacao h1{
+    color: white;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #5F9EA0;
+}
