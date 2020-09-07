@@ -1,5 +1,5 @@
 
-### Repositório destinado a projetos da disciplina de Projeto de interface de software - 2º período
+### Repositório destinado ao projeto da disciplina de Projeto de interface de software
 
 Tecnologias usadas:
 `Html`, `CSS` e `Bootstrap`
